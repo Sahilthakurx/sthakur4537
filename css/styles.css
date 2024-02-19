@@ -1,0 +1,76 @@
+/*Sahil Thakur 8924537 */
+html{
+    font: normal normal bold 20px/1.5 Times, "Times New Roman", Georgia, serif;
+}
+
+body{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0.50rem;
+}
+
+p{
+    color: #22012c;
+}
+
+h1{
+    color: rgba(82, 49, 0, 0.947);
+}
+
+h2{
+    color: green;
+}
+
+
+header, footer{
+    background-image: linear-gradient(180deg,rgb(255, 153, 0),white,rgb(13, 199, 0));
+    text-align: center;
+}
+
+
+footer p{
+    font-size: 0.75rem;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+.main-section{
+
+    background-color: hsla(57, 100%, 82%, 0.967);
+    text-align: center;
+}
+
+.main-section-figure {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+}
+.main-section-figure img{
+    width: 80%;
+    height: 80%;
+    border-radius: 1.5rem;
+}
+#absolute-path-image{
+    background-color: hsla(163, 93%, 78%, 0.934);
+    border: .25rem solid rgb(2, 79, 82);
+    border-radius: 1.5rem;
+    color: rgb(2, 79, 82);
+    padding: 1rem;
+}
+
+#relative-path-image{
+    background-color: hsla(293, 98%, 81%, 0.975);
+    border: .25rem solid rgb(123, 0, 121);
+    border-radius: 1.5rem;
+    color: rgb(123, 0, 121);
+    padding: 1rem;
+}
+
+#quote{
+    border: .50rem solid rgb(255, 121, 3);
+    box-shadow: .25rem .25rem .25rem;
+}
